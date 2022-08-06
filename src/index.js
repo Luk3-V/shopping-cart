@@ -18,12 +18,18 @@ root.render(
 // Cart
 
 // TODO:
+// product add to cart
 // Home
-// Shop List Grid
 // Cart tab
-// Add item
 // CSS
 // images
 
 // DONE:
 // Router & Navbar
+// Shop List Grid
+
+// shop item hover image
+// product color picker
+// product size picker
+// product quanitity picker
+// product image gallery
