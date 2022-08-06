@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "MINIONS TEE01",
+        "price": 125.00,
+        "colors": ["black", "white"],
+        "images": [
+            ["tee01/1_black.jpg", "tee01/2_black.jpg", "tee01/3_black.webp"],
+            ["tee01/1_white.jpg", "tee01/2_white.jpg", "tee01/3_white.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 2,
+        "name": "MINIONS TEE02 KIDS",
+        "price": 85.00,
+        "colors": ["blue"],
+        "images": [
+            ["tee02/1.jpg", "tee02/2.jpg", "tee02/3.jpg"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 3,
+        "name": "MINIONS TEE03 KIDS",
+        "price": 85.00,
+        "colors": ["blue", "white"],
+        "images": [
+            ["tee03/1_blue.jpg", "tee03/2_blue.jpg", "tee03/3_blue.jpg"],
+            ["tee03/1_white.jpg", "tee03/2_white.jpg", "tee03/3_white.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 12,
+        "name": "MINIONS DISH",
+        "price": 95.00,
+        "colors": ["yellow"],
+        "images": [
+            ["dish/1.jpg", "dish/2.jpg", "dish/3.webp"]
+        ],
+        "hasSizes": false
+    }
+]
