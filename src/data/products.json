@@ -5,8 +5,8 @@
         "price": 125.00,
         "colors": ["black", "white"],
         "images": [
-            ["tee01/1_black.jpg", "tee01/2_black.jpg", "tee01/3_black.webp"],
-            ["tee01/1_white.jpg", "tee01/2_white.jpg", "tee01/3_white.webp"]
+            ["tee01/1_black.webp", "tee01/2_black.webp", "tee01/3_black.webp"],
+            ["tee01/1_white.webp", "tee01/2_white.webp", "tee01/3_white.webp"]
         ],
         "hasSizes": true
     },
@@ -16,7 +16,7 @@
         "price": 85.00,
         "colors": ["blue"],
         "images": [
-            ["tee02/1.jpg", "tee02/2.jpg", "tee02/3.jpg"]
+            ["tee02/1.webp", "tee02/2.webp", "tee02/3.webp"]
         ],
         "hasSizes": true
     },
@@ -26,18 +26,135 @@
         "price": 85.00,
         "colors": ["blue", "white"],
         "images": [
-            ["tee03/1_blue.jpg", "tee03/2_blue.jpg", "tee03/3_blue.jpg"],
-            ["tee03/1_white.jpg", "tee03/2_white.jpg", "tee03/3_white.webp"]
+            ["tee03/1_blue.webp", "tee03/2_blue.webp", "tee03/3_blue.webp"],
+            ["tee03/1_white.webp", "tee03/2_white.webp", "tee03/3_white.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 4,
+        "name": "MINIONS TEE04 KIDS",
+        "price": 85.00,
+        "colors": ["black"],
+        "images": [
+            ["tee04/1.webp", "tee04/2.webp", "tee04/3.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 5,
+        "name": "MINIONS TEE05",
+        "price": 125.00,
+        "colors": ["black"],
+        "images": [
+            ["tee05/1.webp", "tee05/2.webp", "tee05/3.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 6,
+        "name": "MINIONS TEE06",
+        "price": 125.00,
+        "colors": ["white"],
+        "images": [
+            ["tee06/1.webp", "tee06/2.webp", "tee06/3.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 7,
+        "name": "MINIONS TEE07",
+        "price": 135.00,
+        "colors": ["white", "yellow"],
+        "images": [
+            ["tee07/1_white.webp", "tee07/2_white.webp", "tee07/3_white.webp"],
+            ["tee07/1_yellow.webp", "tee07/2_yellow.webp", "tee07/3_yellow.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 8,
+        "name": "MINIONS TEE08",
+        "price": 135.00,
+        "colors": ["white", "yellow"],
+        "images": [
+            ["tee08/1_white.webp", "tee08/2_white.webp", "tee08/3_white.webp"],
+            ["tee08/1_yellow.webp", "tee08/2_yellow.webp", "tee08/3_yellow.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 9,
+        "name": "MINIONS TEE09",
+        "price": 135.00,
+        "colors": ["black", "white"],
+        "images": [
+            ["tee09/1_black.webp", "tee09/2_black.webp", "tee09/3_black.webp"],
+            ["tee09/1_white.webp", "tee09/2_white.webp", "tee09/3_white.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 10,
+        "name": "MINIONS SHARK FULL ZIP HOODIE",
+        "price": 499.00,
+        "colors": ["grey", "white"],
+        "images": [
+            ["hoodie/1_grey.webp", "hoodie/2_grey.webp", "hoodie/3_grey.webp"],
+            ["hoodie/1_white.webp", "hoodie/2_white.webp", "hoodie/3_white.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 11,
+        "name": "MINIONS SHARK FULL ZIP HOODIE KIDS",
+        "price": 335.00,
+        "colors": ["white", "yellow"],
+        "images": [
+            ["hoodie_kids/1_white.webp", "hoodie_kids/2_white.webp", "hoodie_kids/3_white.webp"],
+            ["hoodie_kids/1_yellow.webp", "hoodie_kids/2_yellow.webp", "hoodie_kids/3_yellow.webp"]
         ],
         "hasSizes": true
     },
     {
         "id": 12,
+        "name": "MINIONS CAMO SHARK FULL ZIP HOODIE",
+        "price": 449.00,
+        "colors": ["green", "yellow"],
+        "images": [
+            ["hoodie_camo/1_green.webp", "hoodie_camo/2_green.webp", "hoodie_camo/3_green.webp"],
+            ["hoodie_camo/1_yellow.webp", "hoodie_camo/2_yellow.webp", "hoodie_camo/3_yellow.webp"]
+        ],
+        "hasSizes": true
+    },
+    {
+        "id": 13,
+        "name": "MINIONS MESH CAP",
+        "price": 449.00,
+        "colors": ["black", "yellow"],
+        "images": [
+            ["hat/1_black.webp", "hat/2_black.webp", "hat/3_black.webp"],
+            ["hat/1_yellow.webp", "hat/2_yellow.webp", "hat/3_yellow.webp"]
+        ],
+        "hasSizes": false
+    },
+    {
+        "id": 14,
         "name": "MINIONS DISH",
         "price": 95.00,
         "colors": ["yellow"],
         "images": [
-            ["dish/1.jpg", "dish/2.jpg", "dish/3.webp"]
+            ["dish/1.webp", "dish/2.webp", "dish/3.webp"]
+        ],
+        "hasSizes": false
+    },
+    {
+        "id": 15,
+        "name": "MINIONS MUG",
+        "price": 49.00,
+        "colors": ["yellow"],
+        "images": [
+            ["mug/1.webp", "mug/2.webp"]
         ],
         "hasSizes": false
     }
