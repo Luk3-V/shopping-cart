@@ -6,7 +6,7 @@ import { getSpaceUntilMaxLength } from "@testing-library/user-event/dist/utils";
 
 const MainImg = styled('img')({
     width: '100%',
-})
+});
 
 const Img = styled('img')({
     width: '100%',
@@ -15,9 +15,9 @@ const Img = styled('img')({
         filter: 'opacity(70%)',
         //outline: '1px solid grey',
     }
-})
+});
 
-function Product() {
+function Product({addToCart}) {
     const {product, image} = useLocation().state;
     const [img, setImg] = useState(product.images[0][0]);
     const [color, setColor] = useState(product.colors[0]);
@@ -28,6 +28,25 @@ function Product() {
         setColor(e.target.value);
         const colorIndex = product.colors.findIndex(c => c == e.target.value);
         setImg(product.images[colorIndex][0]);
+    }
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        let cartItem = {
+            id: product.id,
+            name: product.name,
+            price: product.price,
+            image: img,
+            quantity: quantity,
+            color: null,
+            size: null
+        };
+        if(product.colors.length > 1)
+            cartItem.color = color;
+        if(product.hasSizes)
+            cartItem.size = size;
+        
+        addToCart(cartItem);
     }
 
     return (
@@ -45,7 +64,7 @@ function Product() {
                     <Link to='/shop'>Back</Link>
                     <Typography>{product.name}</Typography>
                     <Typography>${product.price}</Typography>
-                    <form action="">
+                    <form onSubmit={handleSubmit}>
                         {(product.colors.length > 1) ? <FormControl>
                             <InputLabel>Color</InputLabel>
                             <Select label="Color" value={color} onChange={handleColor}>

@@ -17,10 +17,12 @@ root.render(
 // Navbar
 // Cart
 
+// BUGS:
+// fix quantity, adding more than 5 to cart
+
 // TODO:
-// product add to cart
 // Home
-// Cart tab
+// Cart preview
 // CSS
 // images
 
@@ -33,3 +35,6 @@ root.render(
 // product size picker
 // product quanitity picker
 // product image gallery
+// product add to cart
+// remove from cart
+// edit quanity
