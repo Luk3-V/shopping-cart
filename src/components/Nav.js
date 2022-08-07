@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function Nav({cartCount}) {
-    const navItems = ['Home', 'Shop', 'Cart'];
     const navitgate = useNavigate();
 
     return (
@@ -15,7 +14,7 @@ function Nav({cartCount}) {
                     onClick={() => navitgate('/')}
                     sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, cursor: 'pointer' }}
                 >
-                    MINIONS X BAPE
+                    BAPE X MINIONS
                 </Typography>
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     <Button onClick={() => navitgate('/')} sx={{ color: '#fff' }}>Home</Button>
