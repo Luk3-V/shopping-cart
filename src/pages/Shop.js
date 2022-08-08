@@ -1,5 +1,5 @@
-import { Container, Grid, Paper, Typography } from "@mui/material";
-import { styled, Box, width } from "@mui/system";
+import { Container, Grid, Typography } from "@mui/material";
+import { styled, } from "@mui/system";
 import { Link } from "react-router-dom";
 
 import products from '../data/products.json';
@@ -9,12 +9,13 @@ const ItemLink = styled(Link)({
     textAlign: 'center',
     color: 'black',
     textDecoration: 'none',
-    '&:hover':{
+    '&:hover h6':{
         textDecoration: 'underline',
     }
 })
 const ItemImg = styled('img')({
-    maxWidth: '250px',
+    width: '100%', 
+    maxWidth: '300px',
     margin:'auto',
     transition: '.5s'
 })
@@ -26,14 +27,14 @@ function Shop() {
 
     return (
         <Container>
-            <Grid container spacing={3}>
+            <Grid container rowSpacing={5} columnSpacing={1}>
                 {products.map((item) => (
-                    <Grid item xs={12} sm={6} md={4} key={item.id}>
-                        <ItemLink to={{pathname: `/shop/products/${item.name.replaceAll(' ', '-')}`}} state={{product: item, image: item.images[0][0]}}>
+                    <Grid item xs={6} sm={6} md={4} key={item.id}>
+                        <ItemLink to={{pathname: `/shop/products/${item.name.replaceAll(' ', '-')}`}} state={{product: item}}>
                             <ItemImg src={require('../assets/'+item.images[0][0])} alt="" onMouseOver={e => changeImage(e.target, item.images[0][1])} onMouseOut={e => changeImage(e.target, item.images[0][0])}/>
-                            <Typography>{item.name}</Typography>
+                            <Typography variant="subtitle1" sx={{maxWidth: '200px', margin:'auto'}}>{item.name}</Typography>
                             <Typography>${item.price}</Typography>
-                            <Typography>{item.colors.length} Colors</Typography>
+                            <Typography variant="subtitle2" sx={{color:'gray'}}>{item.colors.length} Colors</Typography>
                         </ItemLink>
                     </Grid>
                 ))}

@@ -9,7 +9,7 @@ function Home() {
     return (
         <Container sx={{textAlign:'center'}}>
             <Typography variant="h4" mt={5}>A BATHING APE® x MINIONS: THE RISE OF GRU</Typography>
-            <img src={banner} alt="" style={{maxWidth: '500px'}} />
+            <img src={banner} alt="" style={{width: '100%', maxWidth: '500px'}} />
             <Typography variant="body1" mb={5}>
             A BATHING APE® (BAPE®︎) is thrilled to announce the release of a limited-edition collection in collaboration with Illumination’s Minions to celebrate the release of their latest film, "MINIONS: THE RISE OF GRU".
             <br /><br />
@@ -23,7 +23,7 @@ function Home() {
             <br /><br />
             Enjoy the countdown to the release of "MINIONS: THE RISE OF GRU" with the BAPE®︎ collaboration items.
             </Typography>
-            <Button onClick={() => navitgate('/shop')} variant='outlined'>View Collection</Button>
+            <Button onClick={() => navitgate('/shop')} variant='outlined' size="large">View Collection</Button>
         </Container>
     );
 }

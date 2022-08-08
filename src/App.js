@@ -7,10 +7,16 @@ import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import Product from "./pages/Product";
 import Cart from './pages/Cart';
+import { ThemeProvider } from "@mui/material";
+
+import theme from "./theme";
 
 
 const PaddingDiv = styled(Box)(() => ({
-    height: '100px'
+    height: '100px',
+    '@media (max-width:600px)': {
+      height: '75px',
+    }
 }));
 
 function App() {
@@ -39,6 +45,7 @@ function App() {
   }
 
   return (
+    <ThemeProvider theme={theme}>
       <BrowserRouter>
         <Nav cartCount={getCartCount}/>
         <PaddingDiv />
@@ -52,7 +59,9 @@ function App() {
           </Route>
           <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} setQuanity={setQuanity}/>} />
         </Routes>
+        <PaddingDiv />
       </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
