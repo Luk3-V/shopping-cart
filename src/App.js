@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HashRouter , Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box, styled } from "@mui/system";
 
 import Nav from "./components/Nav";
@@ -46,7 +46,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <HashRouter>
+      <BrowserRouter basename="/shopping-cart/">
         <Nav cartCount={getCartCount}/>
         <PaddingDiv />
         <Routes>
@@ -60,7 +60,7 @@ function App() {
           <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} setQuanity={setQuanity}/>} />
         </Routes>
         <PaddingDiv />
-      </HashRouter>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
