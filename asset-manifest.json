@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/shopping-cart/static/js/main.d155867a.js",
+    "static/media/2_yellow.webp": "/shopping-cart/static/media/2_yellow.6ab59a5986fc4216948b.webp",
+    "static/media/2.webp": "/shopping-cart/static/media/2.b3a5c05af63f11161c24.webp",
+    "static/media/2_black.webp": "/shopping-cart/static/media/2_black.e1d43fb77919fdb0a3db.webp",
+    "static/media/3_black.webp": "/shopping-cart/static/media/3_black.106933da933c3b2ad50f.webp",
+    "static/media/2_white.webp": "/shopping-cart/static/media/2_white.d54f7bc21244641c44b6.webp",
+    "static/media/3_green.webp": "/shopping-cart/static/media/3_green.3531ef9556d7d1fa57f8.webp",
+    "static/media/3_yellow.webp": "/shopping-cart/static/media/3_yellow.f202294c0b7e64da5217.webp",
+    "static/media/2_blue.webp": "/shopping-cart/static/media/2_blue.a6bdf548fc6a02d86bc9.webp",
+    "static/media/1_yellow.webp": "/shopping-cart/static/media/1_yellow.c37a01b9c041afc79704.webp",
+    "static/media/1.webp": "/shopping-cart/static/media/1.af37343e2e88063b35e5.webp",
+    "static/media/1_blue.webp": "/shopping-cart/static/media/1_blue.c0fc808d8926306f2e96.webp",
+    "static/media/1_grey.webp": "/shopping-cart/static/media/1_grey.59ddad5dbcf658740ca0.webp",
+    "static/media/2_green.webp": "/shopping-cart/static/media/2_green.6ea4ba0516fe1af09460.webp",
+    "static/media/1_green.webp": "/shopping-cart/static/media/1_green.daf0c3b1c76afa14dcbe.webp",
+    "static/media/1_white.webp": "/shopping-cart/static/media/1_white.ca93a1a07cade4f27abf.webp",
+    "static/media/3_grey.webp": "/shopping-cart/static/media/3_grey.d0af3550d08301ac3c24.webp",
+    "static/media/1_black.webp": "/shopping-cart/static/media/1_black.6e555250a2249b6996c6.webp",
+    "static/media/3_white.webp": "/shopping-cart/static/media/3_white.342d5f8af053dddb85fa.webp",
+    "static/media/2_grey.webp": "/shopping-cart/static/media/2_grey.2a5f60e6b700e1fa1912.webp",
+    "static/media/banner.webp": "/shopping-cart/static/media/banner.6359204161471cf96c53.webp",
+    "static/media/3.webp": "/shopping-cart/static/media/3.8bc0d6feb9d8d96f7ba2.webp",
+    "static/media/3_blue.webp": "/shopping-cart/static/media/3_blue.4f96c8a27431de6364d1.webp",
+    "index.html": "/shopping-cart/index.html",
+    "main.d155867a.js.map": "/shopping-cart/static/js/main.d155867a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d155867a.js"
+  ]
+}
